@@ -12,13 +12,14 @@ More info : [Wikipedia](https://en.wikipedia.org/wiki/RMI-IIOP)
 
 1. Compile project files
 2. Go to `bin/` directory and run `rmic -iiop zad1.PhoneDirectory` command to generate exportObjects stubs
-
-### Running 
-
-1. Start COS naming ORB server with command `orbd -ORBInitialPort {portNumber}`
-2. Define JNDI configuration presented below using `jndi.properties` file or in JVM settings
+3. Define JNDI configuration presented below using `jndi.properties` file or in JVM settings
    ```
    java.naming.factory.initial=com.sun.jndi.cosnaming.CNCtxFactory
    java.naming.provider.url=iiop://{hostName}:{port} // eg. localhost:3333
    ```
-3. Run server and client with JNDI configuration
+   Configuration should be placed in your `bin/` directory
+   
+### Running 
+
+1. Start COS naming ORB server with command `orbd -ORBInitialPort {portNumber}` from your `bin/` directory
+3. Run server and client with JNDI configuration (There's client GUI too...)
