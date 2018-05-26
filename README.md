@@ -1,11 +1,16 @@
-# PhoneBook Java RMI-IIOP 
- 
+# Cobra RMI-IIOP example app 
+
+
+This repository is Proof of concept (POC) of the [Distributed Object Paradigm](https://en.wikipedia.org/wiki/Distributed_object) and [Remote Method Invocation](https://pl.wikipedia.org/wiki/Remote_Method_Invocation) in distributed applications. For example [Xorg](https://en.wikipedia.org/wiki/Freedesktop.org), [Gnome](https://en.wikipedia.org/wiki/The_GNOME_Project), [KDE](https://en.wikipedia.org/wiki/KDE) and [Java Beans](https://en.wikipedia.org/wiki/JavaBeans) api. It's an alternative to [SOAP](https://en.wikipedia.org/wiki/SOAP) protocol. This application allows you to manage your phonebook using spring gui and command line. 
+
+
 ### About RMI-IIOP
 
 **RMI-IIOP** (read as "RMI over IIOP") denotes the **Java Remote Method Invocation** (RMI) interface over the **Internet Inter-Orb Protocol** (IIOP), which delivers **Common Object Request Broker Architecture (CORBA)** distributed computing capabilities to the Java platform. 
 
-More info : [Wikipedia](https://en.wikipedia.org/wiki/RMI-IIOP)
-
+More info : 
+- [Wikipedia](https://en.wikipedia.org/wiki/RMI-IIOP)
+- [Oracle Documentation](https://docs.oracle.com/javase/tutorial/rmi/overview.html)
 
 
 ### Building
